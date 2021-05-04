@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: powderblue;
+}
+
+h1,
+h2 {
+      text-align: center;
+    }
+  
+h2 {
+    color: teal;
+  }
+  
+table {
+    border: 2px solid lightseagreen;
+    width: 650px;
+    margin: 0 auto;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    border-color: grey;
+    font-variant: normal;
+}
+
+tbody {
+    border-collapse: separate;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    font-variant: normal;
+ }
+    
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+    background-color: dodgerblue; 
+  }
+  
+td {
+        display: table-cell;
+        vertical-align: inherit;
+        border-top: 1px solid teal;
+}
+  
+.rule {
+    font-family: monospace;
+    background-color: beige;
+}
+
+.name {
+      text-transform: capitalize;
+    }
